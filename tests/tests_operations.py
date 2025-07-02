@@ -1,4 +1,4 @@
-from github_actions.src.main import add,sub
+from src.main import add,sub
 
 def test_add():
     assert add(5,3)==8
